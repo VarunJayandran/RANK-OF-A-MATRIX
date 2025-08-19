@@ -16,16 +16,16 @@ To write a python program to find the rank of a matrix
 #RegisterNumber: 212224240179
 
 import numpy as np
-def find_rank(matrix):
-    return np.linalg.matrix_rank(matrix)
-    
-matrix = [[1,2,3],[3,6,9]]
-rank = find_rank(matrix)
+A = np.array([[1, 2, 3],
+              [3, 6, 9]])
+rank = np.linalg.matrix_rank(A)
 print(rank)
+
 ```
 ## Output:
 
-<img width="1407" height="279" alt="478870651-6fd052ef-4db4-47da-a993-895a7f1660f8" src="https://github.com/user-attachments/assets/84ff1d6a-6f56-4767-b9db-b766c9ac46b3" />
+<img width="485" height="176" alt="image" src="https://github.com/user-attachments/assets/719774a9-8606-4b23-ace5-2c1f1b6dd89c" />
+
 
 ## Result:
 Thus the rank for the given matrix is successfully solved by  using a python program.
